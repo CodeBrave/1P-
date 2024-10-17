@@ -1,4 +1,5 @@
 // Import the http module: This allows you to create a server
+// new comment
 const http = require('http');
 /* Use http.createServer() to create a server. Inside this function, specify what should happen when the server receives a request (req) and sends a response (res). When the server receives a request, it processes the request, prepares the appropriate response, and then sends the response back to the client. */
 const server = http.createServer((req, res) => {
